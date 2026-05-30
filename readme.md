@@ -46,6 +46,8 @@ The benchmark evaluated the performance of standard PyTorch Attention against th
 
 ### Execution Latency Comparison
 
+![Attention Performance Graph](attention-performance.png)
+
 | Sequence Length (`N_CTX`) | PyTorch Attention (ms) | Custom Triton Kernel (ms) | Speedup Multiplier |
 | :--- | :--- | :--- | :--- |
 | **1024** | 9.12 ms | 5.29 ms | **1.72x Faster** |
