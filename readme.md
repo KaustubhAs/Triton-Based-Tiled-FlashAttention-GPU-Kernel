@@ -78,7 +78,7 @@ triton-flash-attention/
 Prerequisites
 Ensure you are running inside a WSL2 Ubuntu environment with the NVIDIA Container Toolkit active.
 
-Bash
+```Bash
 # Clone the repository and navigate inside
 cd triton-flash-attention
 
@@ -92,12 +92,14 @@ source triton_env/bin/activate
 # Install exact dependencies
 pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
 pip install -r requirements.txt
+```
+
 Running the Benchmarks
 To execute the compiler and run the latency benchmarking harness:
 
-Bash
+```Bash
 python benchmarks/benchmark.py
-
+```
 
 ## References
 - Dao, T., Fu, D., Ermon, S., Rudra, A., & Ré, C. (2022). FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness. arXiv:2205.14135
