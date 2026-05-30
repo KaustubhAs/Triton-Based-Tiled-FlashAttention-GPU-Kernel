@@ -72,6 +72,7 @@ triton-flash-attention/
 │   └── benchmark.py          # Latency testing harness with explicit CUDA caching
 ├── requirements.txt
 └── README.md
+```
 
 ## Setup & Execution
 Prerequisites
